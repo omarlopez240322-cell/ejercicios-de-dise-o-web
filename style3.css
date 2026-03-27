@@ -1,0 +1,169 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #29426B;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            display: flex;
+            align-items: center; /* Centra verticalmente los elementos */
+        }
+        nav img {
+            width: 60px; /* Ajusta el ancho de la imagen según lo necesites */
+            margin-right: 70%; /* Agrega un espacio entre la imagen y las opciones de menú */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            margin-top: 70px; /* Ajusta el margen superior para evitar que el contenido se solape con la barra de navegación */
+        }
+
+
+/*fondo imagen*/
+        .boton{display:block;text-decoration:none;
+background-color:#c0c0c0;color:black;padding:10px;margin:10px 0;
+border-radius:8px;transition:0.3s;}
+
+.boton i{margin-right:8px;}
+
+.boton:hover{background-color:#29426B;}
+
+body{background-image:url(textura.jpg)
+
+}
+
+
+/*foto perfil*/
+.perfil{width:150px;border-radius:50%;margin-bottom:10px;
+}
+
+/*carrusel*/
+#carouselExampleCaptions{
+	max-width: 900px;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+	
+}
+
+/*imagenes carrusel*/
+
+.carousel-item img{
+	height: 450px;
+	object-fit: cover;
+}
+
+.carousel-caption{
+	background: rgba(0,0,0,0.55);
+	padding: 15px;
+	border-radius: 10px;	
+}
+
+.carousel-caption h5{
+	font-size: 28px;
+	font-weight: bold;	
+}
+
+.carousel-caption p{
+	font-size: 16px;
+
+}
+
+.carousel-indicators button{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: rgba(0,0,0,0.6);
+	padding: 20px;
+	border-radius: 50%;
+}
+/*carrusel1*/
+#carouselExampleCaptions1{
+	max-width: 900px;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+	
+}
+
+/*imagenes carrusel*/
+
+.carousel-item img{
+	height: 450px;
+	object-fit: cover;
+}
+
+.carousel-caption{
+	background: rgba(0,0,0,0.55);
+	padding: 15px;
+	border-radius: 10px;	
+}
+
+.carousel-caption h5{
+	font-size: 28px;
+	font-weight: bold;	
+}
+
+.carousel-caption p{
+	font-size: 16px;
+
+}
+
+.carousel-indicators button{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: rgba(0,0,0,0.6);
+	padding: 20px;
+	border-radius: 50%;
+}
+
+/*contendores carrusel*/
+.contenedor-carruseles {
+  display: flex;
+}
+
+.contenedor-carruseles .carousel {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contenedor-carruseles .carousel:last-child {
+  margin-right: 0;
+}
+
+.contenedor-carruseles {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+}
+/*footer*/
+footer {
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+#inicio {
+  text-align: center;
+}
+
